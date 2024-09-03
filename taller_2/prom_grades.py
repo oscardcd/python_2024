@@ -37,3 +37,6 @@ else:
 
 
 print(f"Promedio de calificaciones es: {prom:.1f}\n Estado: {studentStatus}")
+
+
+#hola care chimbo
