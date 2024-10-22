@@ -1,5 +1,5 @@
 
-class Transporte:
+class  Transporte:
     
     pasajeros:int
 
