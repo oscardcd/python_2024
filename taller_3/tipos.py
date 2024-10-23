@@ -13,4 +13,4 @@ class TipoMultiplicador:
     }
 
     def obtener_multiplicador(cls, tipo_atacante, tipo_defensor):
-        return cls.tabla_tipos.get([tipo_atacante, tipo_defensor])
+        return cls.tabla_tipos.get((tipo_atacante, tipo_defensor))
