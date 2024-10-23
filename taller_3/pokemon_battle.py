@@ -22,7 +22,7 @@ if __name__ == '__main__':
     danio = ataque - defensa
     if danio > 0:
         Blastoise.recibir_danio(danio)
-        print(f"Charizard infligió {danio:.2f} de daño a Blastoise.")
+        print(f"Charizard infligió {danio} de daño a Blastoise.")
     else:
         print(f"Blastoise bloqueó el ataque de Charizard.")
     
