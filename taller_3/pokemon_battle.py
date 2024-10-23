@@ -1,4 +1,4 @@
-from pokemon import Pokemon;
+from pokemon import Pokemon
 from ataque import AtaqueFisico
 
 

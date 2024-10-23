@@ -12,6 +12,5 @@ class TipoMultiplicador:
         ('Grass', 'Grass'): 1.0
     }
 
-    
-    def obtener_multiplicador(self, tipo_atacante, tipo_defensor):
-        return self.tabla_tipos.get((tipo_atacante, tipo_defensor), 1.0)
+    def obtener_multiplicador(cls, tipo_atacante, tipo_defensor):
+        return cls.tabla_tipos.get([tipo_atacante, tipo_defensor])

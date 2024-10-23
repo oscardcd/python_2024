@@ -2,6 +2,7 @@
 import random;
 from salud import Salud
 from defensa import Defensa
+from ataque import AtaqueFisico
 
 # Clase principal Pokemon (SRP: Solo coordina las otras responsabilidades)
 
@@ -15,7 +16,7 @@ class Pokemon:
         self.defensa = Defensa(stats['DEFENSE'])
 
     def atacar(self, oponente):
-        ataque_elegido = random.choice(self.ataques)
+        ataque_elegido:AtaqueFisico = random.choice(self.ataques)
         ataque_final, nombre_ataque, factor_tipo = ataque_elegido.ejecutar(self, oponente)
 
         print(f"{self.nombre} usó {nombre_ataque}!")
