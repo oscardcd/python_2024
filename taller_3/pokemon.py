@@ -4,7 +4,6 @@ from salud import Salud
 from defensa import Defensa
 from ataque import AtaqueFisico
 
-# Clase principal Pokemon (SRP: Solo coordina las otras responsabilidades)
 
 class Pokemon:
     def __init__(self, nombre, tipo, ataques, stats):
